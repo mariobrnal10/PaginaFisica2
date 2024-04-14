@@ -1,0 +1,55 @@
+/* Estilos para la barra de menú */
+.navbar {
+    background-color: #212529 !important; /* Gris oscuro */
+    color: #ffffff !important; /* Texto blanco */
+    border: 6px solid transparent; /* Borde inicial transparente */
+    height: 80px; /* Altura de la barra de menú */
+    padding: 20px 20px; /* Espaciado interno de la barra de menú */
+    animation: borderAnimation 5s linear infinite; /* Animación de cambio de color del borde */
+}
+
+/* Definición de la animación */
+@keyframes borderAnimation {
+    0% {
+        border-color: #58c415; /* Verde al inicio */
+    }
+    25% {
+        border-color: #ffc107; /* Amarillo al 25% de la animación */
+    }
+    50% {
+        border-color: #1ac6bd; /* Azul al 50% de la animación */
+    }
+    75% {
+        border-color: #dc3545; /* Rojo al 75% de la animación */
+    }
+    100% {
+        border-color: #58c415; /* Volver al verde al final de la animación */
+    }
+}
+
+/* Estilos para los enlaces de la barra de menú */
+.navbar-nav .nav-link {
+    color: #58c415 !important; /* Verde */
+}
+
+/* Estilos para los enlaces de la barra de menú al pasar el cursor */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important; /* Amarillo */
+}
+
+/* Estilos para los elementos desplegables del menú */
+.navbar-nav .dropdown-menu {
+    background-color: #212529 !important; /* Gris oscuro */
+    border: none; /* Sin borde */
+}
+
+/* Estilos para los enlaces de los elementos desplegables del menú */
+.navbar-nav .dropdown-item {
+    color: #58c415 !important; /* Texto blanco */
+}
+
+/* Estilos para los enlaces de los elementos desplegables del menú al pasar el cursor */
+.navbar-nav .dropdown-item:hover {
+    background-color: #ffc107 !important; /* Amarillo */
+    color: #212529 !important; /* Gris oscuro */
+}

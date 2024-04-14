@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../PAGINAFISICA/css/barra.css">
+    <link rel="stylesheet" href="../PAGINAFISICA/css/estilo.css">
+    <link rel="stylesheet" href="../PAGINAFISICA/css/estilosCalculadora1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner1">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAcustica" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ACUSTICA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownAcustica">
+                                <li><a class="dropdown-item" href="HistoriaAcustica.html">Historia Acustica</a></li>
+                                <li><a class="dropdown-item" href="ConceptosBasicos.html">Conceptos Basicos</a></li>
+                                <li><a class="dropdown-item" href="sonido.html">Sonido</a></li>
+                                <li><a class="dropdown-item" href="MovimientoOndulatoria.html">Movimiento Ondulatoria</a></li>
+                                <li><a class="dropdown-item" href="MAS.html">Movimiento Armonico Simple</a></li>
+                                <li><a class="dropdown-item" href="movimientoPeriodico.html">Movimiento Periodico</a></li>
+                                <li><a class="dropdown-item" href="CuerpoElastico.html">Cuerpo Elástico</a></li>
+                                <li><a class="dropdown-item" href="LeyHookie.html">Ley de Hookie</a></li>
+                                <li><a class="dropdown-item" href="Esfuerzo.html">Esfuerzo</a></li>
+                                <li><a class="dropdown-item" href="Deformacion.html">Deformacion</a></li>
+                                <li><a class="dropdown-item" href="LeyInverso.html">Ley Inverso del Cuadro para la Intencidad</a></li>
+                                <li><a class="dropdown-item" href="Vibracion.html">Vibración en Columnas de Aire</a></li>
+                                <li><a class="dropdown-item" href="EnergiaMovimineto.html">Energia de Movimiento Ondulatorio</a></li>
+                                <li><a class="dropdown-item" href="OndasElectro.html">Ondas Magneticas</a></li>
+                                <li><a class="dropdown-item" href="PotenciaMedia.html">Potencia Media de una onda Senoidal</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="calculadoraAcustica.html">Calculadora Acustica</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOptica" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                OPTICA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownOptica">
+                                <li><a class="dropdown-item" href="IntroduccionOptica.html">Introduccion a la Optica</a></li>
+                                <li><a class="dropdown-item" href="EspectroElectro.html">Espectro Electromagnético</a></li>
+                                <li><a class="dropdown-item" href="DualidadOnda-Particula.html">Dualidad Onda-Particula</a></li>
+                                <li><a class="dropdown-item" href="Reflexion-Refraccion.html">Reflexión y Refracción de la luz</a></li>
+                                <li><a class="dropdown-item" href="Dispercion.html">Dispercion de la luz</a></li>
+                                <li><a class="dropdown-item" href="OndasElectromagneticas.html">Ondas Electromagnéticas</a></li>
+                                <li><a class="dropdown-item" href="LuzPolarizada.html">Luz Polarizada y no Polarizada</a></li>
+                                <li><a class="dropdown-item" href="anguloCritico.html">Ángulo critico y Distancia Focal</a></li>
+                                <li><a class="dropdown-item" href="anguloBrewster.html">Ángulo de Brewster</a></li>
+                                <li><a class="dropdown-item" href="laseres.html">Láseres</a></li>
+                                <li><a class="dropdown-item" href="DispositivosIniciales.html">Dispositivos iniciales y luz de fibras Ópticas</a></li>
+                                <li><a class="dropdown-item" href="FenomenoDeLuminisidad.html">Fenómenos de Luminiscencia</a></li>
+                                <li><a class="dropdown-item" href="AmplitudImagen.html">Ampliación de la Imagen</a></li>
+                                <li><a class="dropdown-item" href="LentesDelgados.html">Lentes Delgadas</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="calculadoraOptica.html">Calculadora Optica</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFisicaModerna" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                FISICA MODERNA
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownFisicaModerna">
+                                <li><a class="dropdown-item" href="introduccionFM.html">Introduccion a la Física Moderna</a></li>
+                                <li><a class="dropdown-item" href="fisicaParticulas.html">Física de Particulas</a></li>
+                                <li><a class="dropdown-item" href="fisicacuantica.html">Física Cuántica</a></li>
+                                <li><a class="dropdown-item" href="TeoriaRelatividad.html">Teoría de la Relatividad</a></li>
+                                <li><a class="dropdown-item" href="particulasSubatomicas.html">Partículas Subatómicas</a></li>
+                                <li><a class="dropdown-item" href="teoeriaIncertidumbre.html">Teoria de la Incertidumbre</a></li>
+                                <li><a class="dropdown-item" href="GatoDeSchrodinger.html">El gato de Schrödinger</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">TEMA 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownQuienesSomos" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ¿QUIENES SOMOS?
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownQuienesSomos">
+                                <li><a class="dropdown-item" href="equipo.html">Equipo</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </div>
+    <br>
+
+    <div class="container">
+        <script>
+            function calcular_amplitud(frecuencia_angular, velocidad_onda) {
+                return frecuencia_angular / velocidad_onda;
+            }
+  
+            function calcular_frecuencia_angular(velocidad_onda, constante_onda) {
+                return velocidad_onda * constante_onda;
+            }
+  
+            function calcular_velocidad_onda(frecuencia_angular, constante_onda) {
+                return frecuencia_angular / constante_onda;
+            }
+  
+            function calcular_amplitud_doble(amplitud) {
+                return 2 * amplitud;
+            }
+  
+            function calcular_longitud_onda(velocidad_onda, frecuencia) {
+                return velocidad_onda / frecuencia;
+            }
+  
+            function calcular_velocidad_onda_2(longitud_onda, frecuencia) {
+                return longitud_onda * frecuencia;
+            }
+  
+            function calcular_frecuencia(velocidad_onda, longitud_onda) {
+                return velocidad_onda / longitud_onda;
+            }
+  
+            function calcular_periodo(frecuencia) {
+                return 1 / frecuencia;
+            }
+  
+            function calcular_fase(tiempo, periodo, fase_inicial) {
+                return 2 * Math.PI * (tiempo / periodo) + fase_inicial;
+            }
+  
+            function calcular_velocidad_angular(frecuencia) {
+                return 2 * Math.PI * frecuencia;
+            }
+  
+            function calcular_numero_de_onda(longitud_onda) {
+                return 2 * Math.PI / longitud_onda;
+            }
+  
+            function calcular_velocidad(energia, densidad_potencia) {
+                return Math.sqrt(energia / densidad_potencia);
+            }
+  
+            function calcular_longitud_de_onda(velocidad_luz, frecuencia) {
+                return velocidad_luz / frecuencia;
+            }
+  
+            function calcular_velocidad_distancia_tiempo(distancia, tiempo) {
+                return distancia / tiempo;
+            }
+  
+            function calcular_frecuencia_angular(n, t) {
+                return (2 * Math.PI * n) / t;
+            }
+  
+            function calcular_tiempo(distancia, velocidad) {
+                return distancia / velocidad;
+            }
+  
+            function calcular_intensidad(p, w, A, k) {
+                return p * w**2 * A**2 * k**2;
+            }
+  
+            function calcular_velocidad_varilla(moduloYoung, densidad) {
+                return Math.sqrt(moduloYoung / densidad);
+            }
+  
+            function calcular_velocidad_gases(modulo, temperatura, masa) {
+                return Math.sqrt((modulo * 8.314 * temperatura) / masa);
+            }
+  
+            function calcular_velocidad_aire(tem, Vaire) {
+                return (Math.sqrt(tem / Vaire)) * 331;
+            }
+  
+            function mostrar_campos_input(formula) {
+                var container = document.getElementById('inputs-container');
+                container.innerHTML = ''; // Limpiar los campos anteriores
+  
+                switch (formula) {
+                    case 'calcular_amplitud':
+                        container.innerHTML += '<label for="frecuencia_angular">Frecuencia Angular:</label>';
+                        container.innerHTML += '<input type="number" id="frecuencia_angular" step="any">';
+                        container.innerHTML += '<label for="velocidad_onda">Velocidad de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="velocidad_onda" step="any">';
+                        break;
+                    case 'calcular_frecuencia_angular':
+                        container.innerHTML += '<label for="velocidad_onda">Velocidad de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="velocidad_onda" step="any">';
+                        container.innerHTML += '<label for="constante_onda">Constante de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="constante_onda" step="any">';
+                        break;
+                    case 'calcular_velocidad_onda':
+                        container.innerHTML += '<label for="frecuencia_angular">Frecuencia Angular:</label>';
+                        container.innerHTML += '<input type="number" id="frecuencia_angular" step="any">';
+                        container.innerHTML += '<label for="constante_onda">Constante de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="constante_onda" step="any">';
+                        break;
+                    case 'calcular_amplitud_doble':
+                        container.innerHTML += '<label for="amplitud">Amplitud:</label>';
+                        container.innerHTML += '<input type="number" id="amplitud" step="any">';
+                        break;
+                    case 'calcular_longitud_onda':
+                        container.innerHTML += '<label for="velocidad_onda">Velocidad de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="velocidad_onda" step="any">';
+                        container.innerHTML += '<label for="frecuencia">Frecuencia:</label>';
+                        container.innerHTML += '<input type="number" id="frecuencia" step="any">';
+                        break;
+                    case 'calcular_velocidad_onda_2':
+                        container.innerHTML += '<label for="longitud_onda">Longitud de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="longitud_onda" step="any">';
+                        container.innerHTML += '<label for="frecuencia">Frecuencia:</label>';
+                        container.innerHTML += '<input type="number" id="frecuencia" step="any">';
+                        break;
+                    case 'calcular_frecuencia':
+                        container.innerHTML += '<label for="velocidad_onda">Velocidad de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="velocidad_onda" step="any">';
+                        container.innerHTML += '<label for="longitud_onda">Longitud de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="longitud_onda" step="any">';
+                        break;
+                    case 'calcular_periodo':
+                        container.innerHTML += '<label for="frecuencia">Frecuencia:</label>';
+                        container.innerHTML += '<input type="number" id="frecuencia" step="any">';
+                        break;
+                    case 'calcular_fase':
+                        container.innerHTML += '<label for="tiempo">Tiempo:</label>';
+                        container.innerHTML += '<input type="number" id="tiempo" step="any">';
+                        container.innerHTML += '<label for="periodo">Período:</label>';
+                        container.innerHTML += '<input type="number" id="periodo" step="any">';
+                        container.innerHTML += '<label for="fase_inicial">Fase Inicial:</label>';
+                        container.innerHTML += '<input type="number" id="fase_inicial" step="any">';
+                        break;
+                    case 'calcular_velocidad_angular':
+                        container.innerHTML += '<label for="frecuencia">Frecuencia:</label>';
+                        container.innerHTML += '<input type="number" id="frecuencia" step="any">';
+                        break;
+                    case 'calcular_numero_de_onda':
+                        container.innerHTML += '<label for="longitud_onda">Longitud de Onda:</label>';
+                        container.innerHTML += '<input type="number" id="longitud_onda" step="any">';
+                        break;
+                    case 'calcular_velocidad':
+                        container.innerHTML += '<label for="energia">Energía:</label>';
+                        container.innerHTML += '<input type="number" id="energia" step="any">';
+                        container.innerHTML += '<label for="densidad_potencia">Densidad de Potencia:</label>';
+                        container.innerHTML += '<input type="number" id="densidad_potencia" step="any">';
+                        break;
+                    case 'calcular_longitud_de_onda':
+                        container.innerHTML += '<label for="velocidad_luz">Velocidad de la Luz en el Vacío:</label>';
+                        container.innerHTML += '<input type="number" id="velocidad_luz" step="any">';
+                        container.innerHTML += '<label for="frecuencia">Frecuencia de la Luz:</label>';
+                        container.innerHTML += '<input type="number" id="frecuencia" step="any">';
+                        break;
+                    case 'calcular_velocidad_distancia_tiempo':
+                        container.innerHTML += '<label for="distancia">Distancia:</label>';
+                        container.innerHTML += '<input type="number" id="distancia" step="any">';
+                        container.innerHTML += '<label for="tiempo">Tiempo:</label>';
+                        container.innerHTML += '<input type="number" id="tiempo" step="any">';
+                        break;
+                    case 'calcular_frecuencia_angular':
+                        container.innerHTML += '<label for="n">n:</label>';
+                        container.innerHTML += '<input type="number" id="n" step="any">';
+                        container.innerHTML += '<label for="t">t:</label>';
+                        container.innerHTML += '<input type="number" id="t" step="any">';
+                        break;
+                    case 'calcular_tiempo':
+                        container.innerHTML += '<label for="distancia">Distancia:</label>';
+                        container.innerHTML += '<input type="number" id="distancia" step="any">';
+                        container.innerHTML += '<label for="velocidad">Velocidad:</label>';
+                        container.innerHTML += '<input type="number" id="velocidad" step="any">';
+                        break;
+                    case 'calcular_intensidad':
+                        container.innerHTML += '<label for="p">p:</label>';
+                        container.innerHTML += '<input type="number" id="p" step="any">';
+                        container.innerHTML += '<label for="w">w:</label>';
+                        container.innerHTML += '<input type="number" id="w" step="any">';
+                        container.innerHTML += '<label for="A">A:</label>';
+                        container.innerHTML += '<input type="number" id="A" step="any">';
+                        container.innerHTML += '<label for="k">k:</label>';
+                        container.innerHTML += '<input type="number" id="k" step="any">';
+                        break;
+                    case 'calcular_velocidad_varilla':
+                        container.innerHTML += '<label for="moduloYoung">Módulo de Young:</label>';
+                        container.innerHTML += '<input type="number" id="moduloYoung" step="any">';
+                        container.innerHTML += '<label for="densidad">Densidad:</label>';
+                        container.innerHTML += '<input type="number" id="densidad" step="any">';
+                        break;
+                    case 'calcular_velocidad_gases':
+                        container.innerHTML += '<label for="modulo">Constante Adiabática:</label>';
+                        container.innerHTML += '<input type="number" id="modulo" step="any">';
+                        container.innerHTML += '<label for="temperatura">Temperatura:</label>';
+                        container.innerHTML += '<input type="number" id="temperatura" step="any">';
+                        container.innerHTML += '<label for="masa">Masa Molar:</label>';
+                        container.innerHTML += '<input type="number" id="masa" step="any">';
+                        break;
+                    case 'calcular_velocidad_aire':
+                        container.innerHTML += '<label for="tem">Temperatura en grados K:</label>';
+                        container.innerHTML += '<input type="number" id="tem" step="any">';
+                        container.innerHTML += '<label for="Vaire">Velocidad del aire en m/s:</label>';
+                        container.innerHTML += '<input type="number" id="Vaire" step="any">';
+                        break;
+                }
+            }
+  
+  
+            function mostrar_menu() {
+                var formulas = [
+                    { value: 'SELECCIONA UNA FORMULA PARA RESOLVER TU PROBLEMA', label: 'SELECCIONA UNA FORMULA PARA RESOLVER TU PROBLEMA' },
+                    { value: 'calcular_amplitud', label: 'Calcular Amplitud' },
+                    { value: 'calcular_frecuencia_angular', label: 'Calcular Frecuencia Angular' },
+                    { value: 'calcular_velocidad_onda', label: 'Calcular Velocidad de Onda' },
+                    { value: 'calcular_amplitud_doble', label: 'Calcular Amplitud Doble' },
+                    { value: 'calcular_longitud_onda', label: 'Calcular Longitud de Onda' },
+                    { value: 'calcular_velocidad_onda_2', label: 'Calcular Velocidad de Onda (segunda fórmula)' },
+                    { value: 'calcular_frecuencia', label: 'Calcular Frecuencia' },
+                    { value: 'calcular_periodo', label: 'Calcular Período' },
+                    { value: 'calcular_fase', label: 'Calcular Fase' },
+                    { value: 'calcular_velocidad_angular', label: 'Calcular Velocidad Angular' },
+                    { value: 'calcular_numero_de_onda', label: 'Calcular Número de Onda' },
+                    { value: 'calcular_velocidad', label: 'Calcular Velocidad' },
+                    { value: 'calcular_longitud_de_onda', label: 'Calcular Longitud de Onda (segunda fórmula)' },
+                    { value: 'calcular_velocidad_distancia_tiempo', label: 'Calcular Velocidad' },
+                    { value: 'calcular_frecuencia_angular', label: 'Calcular Frecuencia Angular (segunda fórmula)' },
+                    { value: 'calcular_tiempo', label: 'Calcular Tiempo' },
+                    { value: 'calcular_intensidad', label: 'Calcular Intensidad' },
+                    { value: 'calcular_velocidad_varilla', label: 'Calcular Velocidad de Varilla' },
+                    { value: 'calcular_velocidad_gases', label: 'Calcular Velocidad de Gases' },
+                    { value: 'calcular_velocidad_aire', label: 'Calcular Velocidad del Aire' }
+                ];
+  
+                var select = document.createElement('select');
+                select.id = 'formula-select';
+  
+                formulas.forEach(function (formula) {
+                    var option = document.createElement('option');
+                    option.value = formula.value;
+                    option.text = formula.label;
+                    select.appendChild(option);
+                });
+  
+                select.addEventListener('change', function () {
+                    var formula = select.value;
+                    mostrar_campos_input(formula);
+                });
+  
+                document.body.appendChild(select);
+  
+                var inputsContainer = document.createElement('div');
+                inputsContainer.id = 'inputs-container';
+                document.body.appendChild(inputsContainer);
+  
+                var calcularButton = document.createElement('button');
+                calcularButton.textContent = 'Calcular';
+                calcularButton.addEventListener('click', function () {
+                    var formula = select.value;
+                    var resultado;
+                    switch (formula) {
+                        case 'calcular_amplitud':
+                            var frecuencia_angular = parseFloat(document.getElementById('frecuencia_angular').value);
+                            var velocidad_onda = parseFloat(document.getElementById('velocidad_onda').value);
+                            resultado = calcular_amplitud(frecuencia_angular, velocidad_onda);
+                            break;
+                        case 'calcular_frecuencia_angular':
+                            var velocidad_onda = parseFloat(document.getElementById('velocidad_onda').value);
+                            var constante_onda = parseFloat(document.getElementById('constante_onda').value);
+                            resultado = calcular_frecuencia_angular(velocidad_onda, constante_onda);
+                            break;
+                        case 'calcular_velocidad_onda':
+                            var frecuencia_angular = parseFloat(document.getElementById('frecuencia_angular').value);
+                            var constante_onda = parseFloat(document.getElementById('constante_onda').value);
+                            resultado = calcular_velocidad_onda(frecuencia_angular, constante_onda);
+                            break;
+                        case 'calcular_amplitud_doble':
+                            var amplitud = parseFloat(document.getElementById('amplitud').value);
+                            resultado = calcular_amplitud_doble(amplitud);
+                            break;
+                        case 'calcular_longitud_onda':
+                            var velocidad_onda = parseFloat(document.getElementById('velocidad_onda').value);
+                            var frecuencia = parseFloat(document.getElementById('frecuencia').value);
+                            resultado = calcular_longitud_onda(velocidad_onda, frecuencia);
+                            break;
+                        case 'calcular_velocidad_onda_2':
+                            var longitud_onda = parseFloat(document.getElementById('longitud_onda').value);
+                            var frecuencia = parseFloat(document.getElementById('frecuencia').value);
+                            resultado = calcular_velocidad_onda_2(longitud_onda, frecuencia);
+                            break;
+                        case 'calcular_frecuencia':
+                            var velocidad_onda = parseFloat(document.getElementById('velocidad_onda').value);
+                            var longitud_onda = parseFloat(document.getElementById('longitud_onda').value);
+                            resultado = calcular_frecuencia(velocidad_onda, longitud_onda);
+                            break;
+                        case 'calcular_periodo':
+                            var frecuencia = parseFloat(document.getElementById('frecuencia').value);
+                            resultado = calcular_periodo(frecuencia);
+                            break;
+                        case 'calcular_fase':
+                            var tiempo = parseFloat(document.getElementById('tiempo').value);
+                            var periodo = parseFloat(document.getElementById('periodo').value);
+                            var fase_inicial = parseFloat(document.getElementById('fase_inicial').value);
+                            resultado = calcular_fase(tiempo, periodo, fase_inicial);
+                            break;
+                        case 'calcular_velocidad_angular':
+                            var frecuencia = parseFloat(document.getElementById('frecuencia').value);
+                            resultado = calcular_velocidad_angular(frecuencia);
+                            break;
+                        case 'calcular_numero_de_onda':
+                            var longitud_onda = parseFloat(document.getElementById('longitud_onda').value);
+                            resultado = calcular_numero_de_onda(longitud_onda);
+                            break;
+                        case 'calcular_velocidad':
+                            var energia = parseFloat(document.getElementById('energia').value);
+                            var densidad_potencia = parseFloat(document.getElementById('densidad_potencia').value);
+                            resultado = calcular_velocidad(energia, densidad_potencia);
+                            break;
+                        case 'calcular_longitud_de_onda':
+                            var velocidad_luz = parseFloat(document.getElementById('velocidad_luz').value);
+                            var frecuencia = parseFloat(document.getElementById('frecuencia').value);
+                            resultado = calcular_longitud_de_onda(velocidad_luz, frecuencia);
+                            break;
+                        case 'calcular_velocidad_distancia_tiempo':
+                            var distancia = parseFloat(document.getElementById('distancia').value);
+                            var tiempo = parseFloat(document.getElementById('tiempo').value);
+                            resultado = calcular_velocidad_distancia_tiempo(distancia, tiempo);
+                            break;
+                        case 'calcular_frecuencia_angular':
+                            var n = parseFloat(document.getElementById('n').value);
+                            var t = parseFloat(document.getElementById('t').value);
+                            resultado = calcular_frecuencia_angular(n, t);
+                            break;
+                        case 'calcular_tiempo':
+                            var distancia = parseFloat(document.getElementById('distancia').value);
+                            var velocidad = parseFloat(document.getElementById('velocidad').value);
+                            resultado = calcular_tiempo(distancia, velocidad);
+                            break;
+                        case 'calcular_intensidad':
+                            var p = parseFloat(document.getElementById('p').value);
+                            var w = parseFloat(document.getElementById('w').value);
+                            var A = parseFloat(document.getElementById('A').value);
+                            var k = parseFloat(document.getElementById('k').value);
+                            resultado = calcular_intensidad(p, w, A, k);
+                            break;
+                        case 'calcular_velocidad_varilla':
+                            var moduloYoung = parseFloat(document.getElementById('moduloYoung').value);
+                            var densidad = parseFloat(document.getElementById('densidad').value);
+                            resultado = calcular_velocidad_varilla(moduloYoung, densidad);
+                            break;
+                        case 'calcular_velocidad_gases':
+                            var modulo = parseFloat(document.getElementById('modulo').value);
+                            var temperatura = parseFloat(document.getElementById('temperatura').value);
+                            var masa = parseFloat(document.getElementById('masa').value);
+                            resultado = calcular_velocidad_gases(modulo, temperatura, masa);
+                            break;
+                        case 'calcular_velocidad_aire':
+                            var tem = parseFloat(document.getElementById('tem').value);
+                            var Vaire = parseFloat(document.getElementById('Vaire').value);
+                            resultado = calcular_velocidad_aire(tem, Vaire);
+                            break;
+                        default:
+                            resultado = 'Por favor, selecciona una fórmula';
+                            break;
+                    }
+                    document.getElementById('resultado').textContent = 'Resultado: ' + resultado;
+                });
+  
+                document.body.appendChild(calcularButton);
+  
+                var resultado = document.createElement('div');
+                resultado.id = 'resultado';
+                document.body.appendChild(resultado);
+            }
+  
+            mostrar_menu();
+        </script>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

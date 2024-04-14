@@ -1,0 +1,69 @@
+/* Estilos generales para las cards */
+.card {
+    position: absolute;
+    width: 50%; /* Ancho */
+    border: 6px solid transparent;  /* Borde inicial transparente */
+    transition: border-color 0.3s, border-width 0.3s; /* Transición suave para el cambio de color y grosor del borde */
+    animation: borderAnimation 5s linear infinite; /* Animación de cambio de color del borde */
+    padding: 20px; /* Espaciado interno */
+    background-color: #343a40; /* Color de fondo */
+    color: white; /* Color del texto */
+}
+
+/* Estilos específicos para cada card */
+.card-1 {
+    top: 20px; /* Posición desde arriba */
+    left: 100px; /* Alineación a la izquierda */
+    height: 500px; /* Alto */
+}
+
+.card-2 {
+    top: 50px; /* Posición desde arriba */
+    left: 680px; /* Alineación a la izquierda */
+    height: 250px; /* Alto */
+}
+
+.card-3 {
+    top: 50px; /* Posición desde arriba */
+    left: 100px; /* Alineación a la izquierda */
+    height: 250px; /* Alto */
+}
+
+.card-4 {
+    top: 50px; /* Posición desde arriba */
+    left: 680px; /* Alineación a la izquierda */
+    height: 250px; /* Alto */
+}
+
+/* Definición de la animación */
+@keyframes borderAnimation {
+    0% {
+        border-color: #58c415; /* Verde al inicio */
+        border-width: 10px; /* Grosor inicial */
+    }
+    25% {
+        border-color: #ffc107; /* Amarillo al 25% de la animación */
+        border-width: 10px; /* Nuevo grosor */
+    }
+    50% {
+        border-color: #1ac6bd; /* Azul al 50% de la animación */
+        border-width: 10px; /* Volver al grosor inicial */
+    }
+    75% {
+        border-color: #dc3545; /* Rojo al 75% de la animación */
+        border-width: 10px; /* Nuevo grosor */
+    }
+    100% {
+        border-color: #58c415; /* Volver al verde al final de la animación */
+        border-width: 10px; /* Volver al grosor inicial */
+    }
+}
+/* Estilos para los títulos de las cards */
+.card-header {
+    font-size: 24px; /* Tamaño del texto */
+}
+
+
+
+
+
